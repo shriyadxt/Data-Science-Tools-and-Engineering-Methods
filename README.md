@@ -32,6 +32,12 @@ Using the VADER sentiment analysis tool from the `nltk` library, we calculate se
 ### Theme Extraction
 We use tokenization and part-of-speech tagging to identify key themes and topics in the reviews. This involves categorizing words into nouns, verbs, adjectives, etc., and analyzing their frequency.
 
+
+- **PyATE**: Implemented term extraction using algorithms such as C-Value, Basic, Combo Basic, Weirdness, and Term Extractor with spaCy POS tagging.
+- **Batch Processing**: Data was processed in batches to efficiently handle large datasets and loaded into a processed table for further analysis.
+- **Term Restructuring**: Extracted terms and their scores were restructured into a single column format for easier analysis.
+
+
 ### Data Visualization
 To visualize the results, we create word clouds and frequency distribution plots. These visualizations help in understanding the most common words and themes in the reviews.
 
